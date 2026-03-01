@@ -8,6 +8,7 @@ This project is a structured Italian learning system. Claude Code acts as a tuto
 - `vocabulary.md` — Vocabulary organized by category (expandable)
 - `exercises/` — Exercise files, one per session, named `YYYY-MM-DD.md`
 - `issues/rating.md` — Tracked weak areas, strengths, and study recommendations
+- `issues/level.md` — CEFR level assessment, untested areas, and next-level requirements
 
 ## Custom Commands
 
@@ -18,8 +19,7 @@ Generate a new exercise file in `exercises/YYYY-MM-DD.md` (using today's date).
 **Process:**
 1. Read `grammar.md`, `vocabulary.md`, and `issues/rating.md`
 2. Generate an exercise file containing:
-   - **Part 1: German → Italian** — 10 sentences in German to translate into Italian
-   - **Part 2: Italian → German** — 10 sentences in Italian to translate into German
+   - **20 sentences in Italian to translate into German**
 3. Sentences must:
    - Be at A1 beginner level
    - Be based on the grammar rules and vocabulary in the project files
@@ -31,18 +31,7 @@ Generate a new exercise file in `exercises/YYYY-MM-DD.md` (using today's date).
 ```markdown
 # Exercise — YYYY-MM-DD
 
-## Part 1: German → Italian
-Translate the following sentences into Italian.
-
-1. [German sentence]
-   >
-
-2. [German sentence]
-   >
-
-(... 10 sentences total)
-
-## Part 2: Italian → German
+## Italian → German
 Translate the following sentences into German.
 
 1. [Italian sentence]
@@ -51,7 +40,7 @@ Translate the following sentences into German.
 2. [Italian sentence]
    >
 
-(... 10 sentences total)
+(... 20 sentences total)
 ```
 
 The user fills in answers on the `> ` lines.
@@ -96,11 +85,27 @@ X/20 correct. [Brief summary of patterns observed.]
    - Update "Last Seen" to the exercise date
    - Update "Examples" with the most recent example
 
+4c. After reviewing, update `issues/level.md`:
+   - Reassess the current CEFR level based on cumulative performance
+   - Move topics between "Not Yet Tested" and "Demonstrated" as they get exercised
+   - Update accuracy trends and progress percentages
+   - Check off completed requirements for the next level
+   - Adjust the overall "Progress Toward A2" percentage
+   - For listen exercises: update the "Listening comprehension" row in the progress table with the latest score and trend
+
 **Grading guidelines:**
 - Accept minor typos if the meaning is clear, but note them
 - Accept valid alternative translations
 - Explain grammar mistakes clearly and concisely
 - Be encouraging but honest
+
+**Grading listen exercises (title starts with "# Listen"):**
+- Extract correct answers from the `<!-- ANSWER KEY -->` HTML comment at the bottom of the file
+- Compare the user's transcription against the answer key
+- Extract replay counts from `<!-- REPLAY COUNTS: ... -->` if present. In the Summary, note which sentences needed the most replays — these indicate difficult-to-parse phrases worth revisiting
+- **Lenient on:** missing/wrong accent marks (è vs e, à vs a — hard to distinguish by ear)
+- **Strict on:** actual words, word forms, word order
+- **Highlight:** homophones and near-homophones as learning opportunities (anno/hanno, uova/uva)
 
 ### /drill
 
@@ -169,3 +174,66 @@ The user fills in answers on the blank `> ` lines.
 If a redo for today already exists, append a letter suffix (e.g. `redo-2026-02-21b.md`).
 
 **Reviewing redos:** Use `/review` — it works the same way for redo files.
+
+### /listen
+
+Generate an Italian listening exercise using Google TTS (`gtts`).
+
+**Process:**
+1. Read `grammar.md`, `vocabulary.md`, and `issues/rating.md`
+2. Generate 10 short Italian sentences (5–10 words each) using only known vocabulary, targeting weak areas
+3. Create the exercise file in `exercises/listen-YYYY-MM-DD.md` (using today's date) with a hidden answer key
+4. Extract sentences to `/tmp/listen_keys.txt` and create a helper script `/tmp/listen_play.sh` that uses `gtts` + `afplay` for playback
+5. Play each sentence one at a time via `bash /tmp/listen_play.sh N`
+6. The user types what they heard — write each answer to the `> ` line in the file
+7. Track replay counts per sentence. After all 10, append a `<!-- REPLAY COUNTS: 1:0, 2:3, ... -->` comment to the exercise file
+8. Suggest `/review` and clean up temp files
+
+**IMPORTANT:** Never pass sentence text directly as a CLI argument — it's visible to the user. Always use the helper script which reads from the temp file indirectly.
+
+**Replay commands during playback:**
+- `replay` — hear the sentence again at normal speed
+- `slow` — hear the sentence at slow speed (gTTS slow mode)
+- `next` — skip to the next sentence
+
+**File format:**
+
+```markdown
+# Listen — YYYY-MM-DD
+
+## Italian Listening
+Listen to each sentence and write what you hear.
+
+1. _(audio)_
+   >
+
+2. _(audio)_
+   >
+
+(... 10 sentences total)
+
+
+
+
+
+
+
+
+
+
+
+<!-- ANSWER KEY (do not read before completing the exercise)
+1. [Italian sentence]
+2. [Italian sentence]
+...
+-->
+```
+
+If a listen exercise for today already exists, append a letter suffix (e.g. `listen-2026-03-01b.md`).
+
+**Reviewing listen exercises:** Use `/review` — it works the same way, with these adjustments:
+- Extract correct answers from the `<!-- ANSWER KEY -->` HTML comment block at the bottom of the file
+- Extract replay counts from the `<!-- REPLAY COUNTS: ... -->` comment. In the Summary, note which sentences needed the most replays — these indicate difficult-to-parse phrases worth revisiting
+- **Lenient on:** missing/wrong accent marks (è vs e, à vs a — hard to distinguish by ear)
+- **Strict on:** actual words, word forms, word order
+- **Highlight:** homophones and near-homophones as learning opportunities (anno/hanno, uova/uva)

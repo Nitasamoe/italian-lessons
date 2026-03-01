@@ -205,6 +205,29 @@
 | la birra    | das Bier       |
 | il tè       | der Tee        |
 | lo zucchero | der Zucker     |
+| i panini    | die Brötchen/belegte Brote |
+| i biscotti  | die Kekse      |
+| il riso     | der Reis       |
+| il cocomero | die Wassermelone |
+| le castagne | die Kastanien  |
+| le bistecche | die Steaks    |
+| la carne macinata | das Hackfleisch |
+| le patate   | die Kartoffeln |
+| le ciliegie | die Kirschen   |
+| le pesche   | die Pfirsiche  |
+| le carote   | die Karotten   |
+| le uova     | die Eier       |
+| i peperoni  | die Paprika    |
+| il salame   | die Salami     |
+| il burro    | die Butter     |
+| il miele    | der Honig      |
+| l'aglio     | der Knoblauch  |
+| il prosciutto | der Schinken |
+| le fragole  | die Erdbeeren  |
+| la cipolla  | die Zwiebel    |
+| le arance   | die Orangen    |
+| i pomodori  | die Tomaten    |
+| l'uva       | die Trauben    |
 
 ## Days & Months
 
@@ -325,6 +348,13 @@
 | tardi      | spät                |
 | insieme    | zusammen            |
 | subito     | sofort              |
+| di solito  | normalerweise/gewöhnlich |
+| a volte    | manchmal            |
+| qualche volta | manchmal/ab und zu |
+| ogni tanto | ab und zu/hin und wieder |
+| di rado    | selten              |
+| raramente  | selten/kaum         |
+| quasi mai  | fast nie            |
 
 ## Example Sentences (Frase)
 
