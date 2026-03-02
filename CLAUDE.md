@@ -19,25 +19,26 @@ Generate a new exercise file in `exercises/YYYY-MM-DD.md` (using today's date).
 **Process:**
 1. Read `grammar.md`, `vocabulary.md`, and `issues/rating.md`
 2. Generate an exercise file containing:
-   - **20 sentences in Italian to translate into German**
+   - **20 sentences in German to translate into Italian**
 3. Sentences must:
    - Be at A1 beginner level
    - Be based on the grammar rules and vocabulary in the project files
    - Target weak areas identified in `issues/rating.md`
    - Mix new material with reinforcement of previous weak spots
    - Adapt difficulty and topics based on the current rating
+   - Include 3–5 multi-clause sentences using subordinating conjunctions (quando, se, mentre, perché, etc.), relative pronouns (che, cui), or infinitive constructions (prima di, senza, per + infinitive) — gradually increase complexity based on what's been demonstrated in `issues/level.md`
 4. Use this format:
 
 ```markdown
 # Exercise — YYYY-MM-DD
 
-## Italian → German
-Translate the following sentences into German.
+## German → Italian
+Translate the following sentences into Italian.
 
-1. [Italian sentence]
+1. [German sentence]
    >
 
-2. [Italian sentence]
+2. [German sentence]
    >
 
 (... 20 sentences total)
@@ -114,12 +115,7 @@ Generate a focused drill exercise targeting the #1 weak area from `issues/rating
 **Process:**
 1. Read `issues/rating.md` and identify the top weak area (highest error count or marked CRITICAL)
 2. Generate 10 short, focused exercises in `exercises/drill-YYYY-MM-DD.md` (using today's date)
-3. Exercise types (pick the most appropriate for the weak area):
-   - **Fill-in-the-blank:** "Il caffè ___ buono." (è / e)
-   - **Conjugation completion:** "dormire → loro ___"
-   - **Article selection:** "___ studenti vanno a scuola." (i / gli / lo)
-   - **Correction:** "Io dormanno bene." → Fix the error.
-   - **Choose the correct form:** "Lei (parla / parlano) italiano."
+3. **Always use German→Italian translation format** — give each sentence in German and the user translates to Italian. Each sentence should isolate the target weak area.
 4. Use this format:
 
 ```markdown
@@ -149,7 +145,7 @@ Generate a redo exercise from wrong answers in the most recent reviewed exercise
 **Process:**
 1. Find the most recent reviewed exercise file in `exercises/` (one that has ✗ marks)
 2. Extract all sentences the user got wrong (marked with ✗)
-3. For each wrong answer, create a **new sentence** that tests the **same grammar point** — do not repeat the original sentence verbatim
+3. For each wrong answer, create a **new sentence in German** that tests the **same grammar point** — do not repeat the original sentence verbatim. The user translates to Italian.
 4. Generate the redo file in `exercises/redo-YYYY-MM-DD.md` (using today's date)
 5. Use this format:
 
@@ -182,21 +178,50 @@ Generate an Italian listening exercise using Google TTS (`gtts`).
 **Process:**
 1. Read `grammar.md`, `vocabulary.md`, and `issues/rating.md`
 2. Generate 10 short Italian sentences (5–10 words each) using only known vocabulary, targeting weak areas
-3. Create the exercise file in `exercises/listen-YYYY-MM-DD.md` (using today's date) with a hidden answer key
-4. Extract sentences to `/tmp/listen_keys.txt` and create a helper script `/tmp/listen_play.sh` that uses `gtts` + `afplay` for playback
+3. Create the exercise file in `exercises/listen-YYYY-MM-DD.md` (using today's date) **without the answer key** — the answer key must NOT be written to the file until the exercise is complete
+4. Write the generated sentences to `/tmp/listen_keys.txt` (one per line, numbered) and create the helper script `/tmp/listen_play.sh`
 5. Play each sentence one at a time via `bash /tmp/listen_play.sh N`
 6. The user types what they heard — write each answer to the `> ` line in the file
 7. Track replay counts per sentence. After all 10, append a `<!-- REPLAY COUNTS: 1:0, 2:3, ... -->` comment to the exercise file
-8. Suggest `/review` and clean up temp files
+8. **After all sentences are done**, append the `<!-- ANSWER KEY -->` block to the exercise file
+9. Suggest `/review` and clean up temp files
 
 **IMPORTANT:** Never pass sentence text directly as a CLI argument — it's visible to the user. Always use the helper script which reads from the temp file indirectly.
+
+**IMPORTANT:** The answer key must ONLY be appended to the exercise file after all 10 sentences have been played and answered. During the exercise, answers exist only in `/tmp/listen_keys.txt`. This prevents answer spoiling through edit previews or tool output.
 
 **Replay commands during playback:**
 - `replay` — hear the sentence again at normal speed
 - `slow` — hear the sentence at slow speed (gTTS slow mode)
 - `next` — skip to the next sentence
 
-**File format:**
+**Helper script (`/tmp/listen_play.sh`):**
+Use a Python-only implementation so sentence text never appears in shell variable expansion:
+
+```bash
+#!/bin/bash
+python3 - "$1" "$2" <<'PYEOF'
+import sys, subprocess, tempfile, os
+n = int(sys.argv[1])
+slow = len(sys.argv) > 2 and sys.argv[2] == "slow"
+keys = open("/tmp/listen_keys.txt").readlines()
+# Strip number prefix (e.g. "1. ") to get raw sentence
+line = keys[n - 1].strip()
+if line and line[0].isdigit():
+    line = line.split(". ", 1)[-1]
+with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as f:
+    tmp = f.name
+try:
+    from gtts import gTTS
+    tts = gTTS(line, lang="it", slow=slow)
+    tts.save(tmp)
+    subprocess.run(["afplay", tmp])
+finally:
+    os.unlink(tmp)
+PYEOF
+```
+
+**File format (during exercise — no answer key):**
 
 ```markdown
 # Listen — YYYY-MM-DD
@@ -211,16 +236,22 @@ Listen to each sentence and write what you hear.
    >
 
 (... 10 sentences total)
+```
 
+**File format (after exercise — answer key appended):**
 
+```markdown
+# Listen — YYYY-MM-DD
 
+## Italian Listening
+Listen to each sentence and write what you hear.
 
+1. _(audio)_
+   > [user's answer]
 
+(... 10 sentences total)
 
-
-
-
-
+<!-- REPLAY COUNTS: 1:0, 2:3, ... -->
 
 <!-- ANSWER KEY (do not read before completing the exercise)
 1. [Italian sentence]
