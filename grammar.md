@@ -416,6 +416,78 @@ See vocabulary.md for the full list. Key grammar notes:
 - Coordinating conjunctions connect independent clauses: *Parlo italiano, ma non lo scrivo bene.*
 - Subordinating conjunctions introduce dependent clauses: *Studio perché voglio imparare.*
 
+## 18. Subordinate Clause Construction
+
+### Word order
+Italian subordinate clauses keep normal SVO order (unlike German):
+- *Studio perché voglio imparare.* (I study because I want to learn.)
+- *Quando piove, resto a casa.* (When it rains, I stay home.)
+
+### Comma rule
+When the subordinate clause comes **first**, use a comma before the main clause:
+- *Quando arrivo, ti chiamo.* ← subordinate first → comma
+- *Ti chiamo quando arrivo.* ← main clause first → no comma needed
+
+### Tense pairing
+
+| Conjunction | Subordinate tense | Main clause tense | Example |
+|-------------|-------------------|-------------------|---------|
+| quando      | presente          | presente          | *Quando piove, resto a casa.* |
+| quando      | futuro            | futuro            | *Quando arriverò, ti chiamerò.* |
+| se          | presente          | presente/futuro   | *Se piove, restiamo a casa.* / *Se piove, resteremo a casa.* |
+| mentre      | presente          | presente          | *Mentre studio, ascolto la musica.* |
+| perché      | presente          | presente          | *Mangio perché ho fame.* |
+
+### Infinitive constructions (preposition + infinitive)
+
+| Construction     | Meaning         | Example |
+|------------------|-----------------|---------|
+| prima di + inf.  | before doing    | *Prima di uscire, chiudo la porta.* |
+| dopo + inf.      | after doing     | *Dopo aver mangiato, leggo un libro.* |
+| senza + inf.     | without doing   | *Esce senza parlare.* |
+| per + inf.       | in order to     | *Studio per imparare l'italiano.* |
+
+Note: *dopo* takes a past infinitive (*dopo aver mangiato*), while the others take a simple infinitive.
+
+## 19. Relative Pronouns (Pronomi Relativi)
+
+### che (who / that / which)
+Used as **subject** or **direct object** of the relative clause. No preposition before it.
+- Subject: *La ragazza che abita qui è mia amica.* (The girl who lives here is my friend.)
+- Object: *Il libro che leggo è interessante.* (The book that I'm reading is interesting.)
+
+### cui (whom / which — after prepositions)
+Used after prepositions: **in cui, di cui, con cui, a cui, per cui**
+- *La città in cui abito è bella.* (The city in which I live is beautiful.)
+- *Il libro di cui parlo è nuovo.* (The book I'm talking about is new.)
+- *L'amica con cui studio è brava.* (The friend with whom I study is good.)
+- *La ragione per cui studio è il lavoro.* (The reason why I study is work.)
+
+### Key difference: che vs cui
+- **che** = no preposition needed → *La persona che vedo...*
+- **cui** = always after a preposition → *La persona con cui parlo...*
+
+## 20. Sentence Connectors & Discourse
+
+### Adding nuance
+| Italian    | German                     | Usage |
+|------------|----------------------------|-------|
+| infatti    | tatsächlich / in der Tat   | confirms what was just said: *È stanco, infatti va a dormire.* |
+| comunque   | jedenfalls / trotzdem      | anyway/regardless: *Comunque, andiamo al cinema.* |
+| inoltre    | außerdem / darüber hinaus  | adds information: *Inoltre, parlo anche tedesco.* |
+| invece     | stattdessen / hingegen     | contrast: *Lui studia, io invece lavoro.* |
+| cioè       | das heißt / also           | clarifies: *Studio lingue, cioè italiano e tedesco.* |
+| per esempio | zum Beispiel              | gives example: *Mi piace la frutta, per esempio le fragole.* |
+
+### Sequencing
+| Italian    | German                     | Usage |
+|------------|----------------------------|-------|
+| prima      | zuerst                     | *Prima mangio, poi esco.* |
+| poi        | dann / danach              | *Poi andiamo al parco.* |
+| dopo       | danach / nachher           | *Dopo studiamo insieme.* |
+| infine     | schließlich / zum Schluss  | *Infine, andiamo a dormire.* |
+| alla fine  | am Ende                    | *Alla fine abbiamo capito.* |
+
 ## Basic Sentence Structure
 
 - Subject + Verb + Object: *Io mangio la pizza.*

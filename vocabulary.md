@@ -356,6 +356,22 @@
 | raramente  | selten/kaum         |
 | quasi mai  | fast nie            |
 
+## Discourse Connectors
+
+| Italian       | German                          |
+|---------------|---------------------------------|
+| infatti       | tatsächlich / in der Tat        |
+| comunque      | jedenfalls / trotzdem           |
+| inoltre       | außerdem / darüber hinaus       |
+| invece        | stattdessen / hingegen          |
+| cioè          | das heißt / also                |
+| per esempio   | zum Beispiel                    |
+| prima         | zuerst                          |
+| poi           | dann / danach                   |
+| dopo          | danach / nachher                |
+| infine        | schließlich / zum Schluss       |
+| alla fine     | am Ende                         |
+
 ## Example Sentences (Frase)
 
 - Non sono sempre sicuro di chi io sia veramente
