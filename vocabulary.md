@@ -1,5 +1,31 @@
 # Italian Vocabulary — A1/B1 Level
 
+<!-- INDEX (line ranges for selective reading)
+Greetings & Basics ......... lines 20–31
+Numbers 1–20 ............... lines 33–56
+Common Verbs ............... lines 58–119
+Reflexive Verbs ............ lines 121–139
+Conjunctions ............... lines 141–180
+Family ..................... lines 182–202
+Food & Drink ............... lines 204–245
+Days & Months .............. lines 247–274
+Adjectives ................. lines 276–295
+Colors ..................... lines 297–310
+Places ..................... lines 312–327
+Body Parts ................. lines 329–345
+Common Adverbs ............. lines 347–372
+Discourse Connectors ....... lines 374–388
+Weather .................... lines 390–408
+Clothes .................... lines 410–428
+Daily Routine .............. lines 430–443
+Travel ..................... lines 445–464
+Shopping ................... lines 466–481
+House & Furniture .......... lines 483–501
+Time Expressions ........... lines 503–518
+Emotions & Feelings ........ lines 520–534
+Example Sentences .......... lines 536–561
+-->
+
 ## Greetings & Basics
 
 | Italian        | German              |
@@ -371,6 +397,152 @@
 | dopo          | danach / nachher                |
 | infine        | schließlich / zum Schluss       |
 | alla fine     | am Ende                         |
+
+## Weather (Il Tempo)
+
+| Italian              | German                |
+|----------------------|-----------------------|
+| il tempo             | das Wetter            |
+| il sole              | die Sonne             |
+| la pioggia           | der Regen             |
+| la neve              | der Schnee            |
+| il vento             | der Wind              |
+| la nuvola            | die Wolke             |
+| il temporale         | das Gewitter          |
+| la nebbia            | der Nebel             |
+| piovere              | regnen                |
+| nevicare             | schneien              |
+| fa caldo             | es ist heiß/warm      |
+| fa freddo            | es ist kalt           |
+| c'è il sole          | die Sonne scheint     |
+| è nuvoloso           | es ist bewölkt        |
+| tira vento           | es ist windig         |
+
+## Clothes (I Vestiti)
+
+| Italian              | German                |
+|----------------------|-----------------------|
+| la maglietta         | das T-Shirt           |
+| la camicia           | das Hemd              |
+| i pantaloni          | die Hose              |
+| la gonna             | der Rock              |
+| il vestito           | das Kleid             |
+| la giacca            | die Jacke             |
+| il cappotto          | der Mantel            |
+| le scarpe            | die Schuhe            |
+| gli stivali          | die Stiefel           |
+| il cappello          | der Hut               |
+| la sciarpa           | der Schal             |
+| i guanti             | die Handschuhe        |
+| la borsa             | die Tasche            |
+| gli occhiali         | die Brille            |
+| la cintura           | der Gürtel            |
+
+## Daily Routine (La Routine)
+
+| Italian              | German                |
+|----------------------|-----------------------|
+| la colazione         | das Frühstück         |
+| il pranzo            | das Mittagessen       |
+| la cena              | das Abendessen        |
+| la doccia            | die Dusche            |
+| lo spazzolino        | die Zahnbürste        |
+| il dentifricio       | die Zahnpasta         |
+| lavarsi i denti      | sich die Zähne putzen |
+| fare colazione       | frühstücken           |
+| preparare            | vorbereiten/zubereiten|
+| pulire               | putzen/reinigen       |
+
+## Travel (Il Viaggio)
+
+| Italian              | German                |
+|----------------------|-----------------------|
+| il viaggio           | die Reise             |
+| la valigia           | der Koffer            |
+| il biglietto         | die Fahrkarte/das Ticket |
+| il treno             | der Zug               |
+| l'autobus            | der Bus               |
+| la macchina          | das Auto              |
+| la bicicletta        | das Fahrrad           |
+| il volo              | der Flug              |
+| la mappa             | die Karte/Landkarte   |
+| l'albergo            | das Hotel             |
+| la prenotazione      | die Reservierung      |
+| il passaporto        | der Reisepass         |
+| la fermata           | die Haltestelle       |
+| il binario           | das Gleis             |
+| partenza             | Abfahrt               |
+| arrivo               | Ankunft               |
+
+## Shopping (Lo Shopping)
+
+| Italian              | German                |
+|----------------------|-----------------------|
+| il mercato           | der Markt             |
+| il prezzo            | der Preis             |
+| lo sconto            | der Rabatt            |
+| il conto             | die Rechnung          |
+| i soldi              | das Geld              |
+| la carta di credito  | die Kreditkarte       |
+| costare              | kosten                |
+| spendere             | ausgeben              |
+| vendere              | verkaufen             |
+| il sacchetto         | die Tüte              |
+| quanto costa?        | wie viel kostet das?  |
+| la taglia            | die Größe             |
+
+## House & Furniture (La Casa)
+
+| Italian              | German                |
+|----------------------|-----------------------|
+| la cucina            | die Küche             |
+| il bagno             | das Badezimmer        |
+| la camera da letto   | das Schlafzimmer      |
+| il soggiorno         | das Wohnzimmer        |
+| il tavolo            | der Tisch             |
+| la sedia             | der Stuhl             |
+| il letto             | das Bett              |
+| l'armadio            | der Schrank           |
+| la finestra          | das Fenster           |
+| la porta             | die Tür               |
+| il divano            | das Sofa              |
+| lo specchio          | der Spiegel           |
+| il frigorifero       | der Kühlschrank       |
+| la lampada           | die Lampe             |
+| il pavimento         | der Boden/Fußboden    |
+
+## Time Expressions (Espressioni di Tempo)
+
+| Italian              | German                |
+|----------------------|-----------------------|
+| stamattina           | heute Morgen          |
+| stasera              | heute Abend           |
+| ieri                 | gestern               |
+| domani               | morgen                |
+| dopodomani           | übermorgen            |
+| l'altro ieri         | vorgestern            |
+| la settimana scorsa  | letzte Woche          |
+| la prossima settimana| nächste Woche         |
+| l'anno scorso        | letztes Jahr          |
+| il prossimo anno     | nächstes Jahr         |
+| fra poco             | bald/gleich           |
+| adesso / ora         | jetzt                 |
+| ancora               | noch/wieder           |
+
+## Emotions & Feelings (Emozioni)
+
+| Italian              | German                |
+|----------------------|-----------------------|
+| felice               | glücklich             |
+| triste               | traurig               |
+| arrabbiato           | wütend/böse           |
+| stanco               | müde                  |
+| preoccupato          | besorgt               |
+| sorpreso             | überrascht            |
+| contento             | zufrieden             |
+| nervoso              | nervös                |
+| tranquillo           | ruhig/gelassen        |
+| annoiato             | gelangweilt           |
 
 ## Example Sentences (Frase)
 

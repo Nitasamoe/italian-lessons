@@ -1,5 +1,32 @@
 # Italian Grammar — A1/B1 Level
 
+<!-- INDEX (line ranges for selective reading)
+§1   Presente Indicativo .............. lines 22–70
+§1b  Irregular Verbs (presente) ...... lines 72–182
+§2   Articolo Determinativo .......... lines 184–208
+§3   Articolo Indeterminativo (sg) ... lines 210–218
+§4   Articolo Indeterminativo (pl) ... lines 220–226
+§5   Passato Prossimo ................ lines 228–235
+§6   Futuro Semplice ................. lines 237–268
+§7   Futuro Anteriore ................ lines 270–280
+§8   Pronomi Soggetto ................ lines 282–292
+§9   Pronomi Riflessivi .............. lines 294–304
+§10  Pronomi Diretti ................. lines 306–330
+§11  Pronomi Indiretti ............... lines 332–354
+§12  Reflexive Verbs ................. lines 356–362
+§13  Volerci / Metterci .............. lines 364–381
+§14  CI ............................... lines 383–390
+§15  Ne ............................... lines 392–396
+§16  Comparatives & Superlatives ..... lines 398–412
+§17  Conjunctions .................... lines 414–418
+§18  Subordinate Clause Construction . lines 420–451
+§19  Relative Pronouns ............... lines 453–470
+§20  Sentence Connectors & Discourse . lines 472–490
+Basic Sentence Structure ............ lines 492–497
+Negation ............................ lines 499–500
+Common Prepositions ................. lines 502–513
+-->
+
 ## 1. Presente Indicativo
 
 ### essere (to be)

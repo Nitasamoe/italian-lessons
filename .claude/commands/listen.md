@@ -1,11 +1,14 @@
 Generate a new Italian listening exercise.
 
-**Files to read:** `grammar.md`, `vocabulary.md`, `issues/rating.md`
+**Files to read:**
+- `issues/tracking.md` — for weak areas and study recommendations
+- `grammar.md` — read only the index (lines 1–20). Read specific sections only if needed.
+- `vocabulary.md` — read only the index (lines 1–18). Read specific sections only if needed.
 
 1. Read the files listed above
 2. Generate **10 short Italian sentences** (5–10 words each):
    - Use only vocabulary from `vocabulary.md`
-   - Target weak areas from `issues/rating.md`
+   - Target weak areas from `issues/tracking.md`
    - A1 level, natural-sounding sentences
    - Mix grammar points — articles, verb conjugation, prepositions, etc.
 3. Create the exercise file in `exercises/listen-YYYY-MM-DD.md` (using today's date) **without the answer key** — the answer key must NOT be written to the file until the exercise is complete. If one already exists for today, append a letter suffix (e.g. `listen-2026-03-01b.md`).
