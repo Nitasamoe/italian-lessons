@@ -4,54 +4,57 @@
 
 | Topic                              | Total Errors | Last Seen    | Examples                                         |
 |------------------------------------|-------------|--------------|--------------------------------------------------|
-| Spelling errors (general)          | 47          | 2026-03-06   | "zuppo" → "zuppa", "biance" → "bianche" (c+e needs h), "compare" → "comprare" (missing r). Previously drilled words still holding! |
+| Spelling errors (general)          | 52          | 2026-03-08   | "bellisima" → "bellissima" (double s), "citta" → "città" (accent), "Abiamo" → "Abbiamo" (double b), "giaceto" → "cappotto". Previously drilled words still holding! |
 | qualche + singular                 | 5           | 2026-03-01c  | "qualche volte" → "qualche volta" (AGAIN in #10) |
 | quasi mai structure                | 6           | 2026-03-01c  | Got "non" in #2 ✓, forgot it in #15 ✗ — inconsistent |
-| Vocabulary confusion               | 30          | 2026-03-06   | "non voglio" for "ich will noch" → "voglio ancora" (noch=ancora, meaning reversed!). "va fuori la casa" → "esce di casa" (ausgehen=uscire). brutto ✓, tardi ✓ from drill now holding! |
+| Vocabulary confusion               | 34          | 2026-03-08   | "già" for noch → "ancora" (2x!), "un altro" for noch → "ancora", "patatine" → "patate" (Kartoffeln≠Pommes), "market" → "mercato". Previously: brutto ✓, tardi ✓ from drill now holding! |
 | Preposition + article              | 10          | listen-2026-03-02 | "del'uova" → "delle uova", "delle latte" → "del latte" (partitive gender swapped); plus previous: nel/nella, prima del |
 | Reflexive verbs (structure)        | 5           | 2026-03-01c  | CONFIRMED IMPROVING — si alzano ✓, ci siamo vestiti ✓, si veste ✓, dobbiamo alzarci ✓ in context |
-| Reflexive passato prossimo auxiliary | 2          | 2026-03-01e  | "mi svegliato" → "mi sono alzato" — but "mi sono alzato" ✓ in drill! |
+| Reflexive passato prossimo auxiliary | 3          | 2026-03-08   | "ha si alzato" → "si è alzata" — reflexive passato prossimo uses essere AND participle agrees with subject gender. |
 | Non placement                      | 2           | 2026-03-01c  | "Si sente non bene" → "Non si sente bene" — non goes BEFORE the verb |
 | -ire loro forms (-ono not -ano)    | 9           | 2026-03-01c  | MASTERED — dormono ✓ again in drill |
 | Possessive loro vs suoi            | 1           | 2026-03-01c  | "i suoi libri" (their books) → "i loro libri" — suoi = his/her, loro = their |
 | cominciare/iniziare a + infinitive | 2           | 2026-03-03   | "inizio imperare" → "inizio a imparare" — missing "a" AND spelling. Previous: "cominciano leggere" |
 | Participle agreement with avere    | 1           | 2026-03-01c  | "ha portata" → "ha portato" — with avere, no agreement |
 | Future tense stems                 | 4           | 2026-03-03c  | "cucinarò" → "cucinerò" — -are verbs drop the a: cucinare → cuciner-. Previous: chiamarò → chiamerò. |
-| Noun gender errors                 | 5           | 2026-03-06   | "il zuppo" → "la zuppa" — zuppa is feminine. Previous: camera, persone. |
-| è vs e accent                      | 10          | drill-2026-03-06 | STILL REGRESSING — "caffè e buono" → "caffè è buono". 4th exercise in a row! |
+| Noun gender errors                 | 6           | 2026-03-08   | "i ciliegie" → "le ciliegie" — ciliegia is feminine. Previous: "il zuppo" → "la zuppa". |
+| è vs e accent                      | 10          | drill-2026-03-06 | NONE in 2026-03-08 — possibly improving? Still 10 total. |
 | Pronoun number (lei vs loro)       | 3           | 2026-02-21c  | MASTERED |
 | Verb form endings (person)         | 5           | drill-2026-03-06 | "vado" → "andiamo" (wir = noi, not io). Previous: chiuso/chiudo, lava/mi lavo. |
 | Verb stem spelling                 | 4           | 2026-02-21c  | MASTERED |
 | Frequency adverb confusion         | 5           | drill-2026-03-01c | Missing "molto" for "sehr" in #6 |
-| prima di + infinitive              | 4           | 2026-03-06   | "prima mangia" → "prima di mangiare" — missing "di" AND must use infinitive, not conjugated verb. 4th error on this pattern. |
+| prima di + infinitive              | 4           | 2026-03-06   | NOW CORRECT — 2/2 in 2026-03-08 (prima di mangiare ✓, prima di andare ✓). Pattern learned! |
 | Impersonal verbs (piovere)         | 2           | 2026-03-01e  | "si piove" → "piove" — piovere is impersonal, NOT reflexive |
-| senza + nessuno (not qualcuno)     | 3           | 2026-03-06   | "senza vedere qualcuno" → "senza vedere nessuno" — 3rd time! After senza, ALWAYS use niente/nessuno. |
+| senza + nessuno/niente             | 4           | 2026-03-08   | "senza dire qualcosa" → "senza dire niente" — 4th time! Knows nessuno goes after senza but missed niente in same sentence. After senza, ALL indefinites flip negative. |
 | se vs quando                       | 1           | 2026-03-01e  | Hypothetical "wenn" = "se" (if), not "quando" (when) |
 | Verb confusion (svegliarsi/alzarsi)| 2           | 2026-03-01e  | FIXED in drill — "mi sono alzato" ✓ for aufstehen |
 | Discourse connector confusion      | 7           | 2026-03-06   | ALL 5 NOW WORKING! comunque ✓ in 2026-03-06 #1, inoltre ✓ #15, cioè ✓ #8, infatti ✓ #17. RESOLVED. |
-| che vs cui (relative pronouns)     | 4           | 2026-03-05   | "nel cui" → "in cui" — cui after prepositions takes NO article (il cui = whose, in cui = in which). Previous: "con che" → "con cui". |
-| Italian spelling rules (sche/schi) | 3           | 2026-03-06   | "biance" → "bianche" — c+e needs h for hard /k/ sound. Same rule as sporche, fresche. Still not generalized! |
+| che vs cui (relative pronouns)     | 5           | 2026-03-08   | "caffè cui è" → "caffè che è" — used cui where che was needed (subject relative pronoun). cui = after prepositions only. Previous: "con che" → "con cui". Now confused in both directions! |
+| Italian spelling rules (sche/schi) | 3           | 2026-03-06   | "biance" → "bianche" — but bianche ✓ in 2026-03-08! Rule may be clicking. |
 | andare a + infinitive              | 2           | 2026-03-03   | "va fare" → "va a fare" (AGAIN). But "andiamo a dormire" ✓ in #6! Inconsistent. |
-| infatti spelling                   | 3           | 2026-03-05   | "infatto" → "infatti" — 3rd time! in+fatti not in+fatto. Previous: "in fatto" (two words), "infatto". |
-| Double negation (non...niente)     | 1           | 2026-03-03   | "dice niente" → "non dice niente" — Italian requires non + niente/nessuno |
+| infatti spelling                   | 3           | 2026-03-05   | "infatto" → "infatti" — 3rd time! in+fatti not in+fatto. |
+| Double negation (non...niente)     | 2           | 2026-03-08   | "ha detto niente" → "non ha detto niente" — AGAIN. Italian requires non + niente/nessuno together. |
 | Article elision (l' before vowel)  | 1           | 2026-03-03   | "La amica" → "L'amica" — la + vowel must elide |
 | uva as collective singular         | 4           | 2026-03-03   | "le uva" → "l'uva" (4 times in one exercise!) — uva has no standard plural, it's always singular |
 | Noun gender (le uova = fem. pl.)   | 1           | 2026-03-03   | "li uova" → "le uova" — uova is feminine plural (le, not li) |
-| Noun gender (il burro = masc.)     | 1           | 2026-03-03b  | "burra" → "burro" — die Butter = il burro (masculine in Italian!) |
+| Noun gender (il burro = masc.)     | 1           | 2026-03-03b  | "burra" → "burro" — die Butter = il burro (masculine in Italian!) — NOW CORRECT in 2026-03-08 ✓ |
 | gli before vowels                  | 2           | 2026-03-05   | "ochi" → "gli occhi" — AGAIN. masculine plural before vowels = gli, not i. Plus "occhi" double c. |
-| Adjective number agreement         | 3           | 2026-03-06   | "verde" → "verdi" — 3rd time! "più buone delle verde" → "migliori di quelle verdi". |
+| Adjective number agreement         | 5           | 2026-03-08   | "verde" → "verdi" (4th time!), "gentile" → "gentili". Plural adjective agreement keeps failing. |
 | Preposition with andare (al)       | 2           | 2026-03-05   | "in parco" → "al parco" — AGAIN. andare + a + il parco = al parco |
-| più accent                         | 5           | 2026-03-03c  | "piu" → "più" — written without accent 5 times in one exercise! Systematic. |
-| Adjective gender agreement         | 4           | 2026-03-06   | "alto" → "alta" (sorella is feminine) — 3rd time! "il migliore" → "la migliore" (pizza is feminine). "zuppo/caldo/buono" all wrong gender for zuppa. |
-| Participle agreement with essere   | 1           | 2026-03-03c  | "è arrivato" → "è arrivata" (lei = feminine → arrivata). With essere, participle agrees! |
-| Reflexive pronoun matching subject | 1           | 2026-03-03c  | "devi alzarsi" → "devi alzarti" — tu → ti (not si). alzarsi=lui/lei, alzarti=tu. |
-| Irregular past participles         | 1           | 2026-03-03c  | "possato" → "potuto" — potere has irregular participle. posso (present) but potuto (participle). |
-| Irregular superlative (migliore)   | 2           | 2026-03-06   | "più buone" → "migliori" (comparative of buono is migliore/migliori, not più buono). Previous: "il più buono" → "il migliore". |
-| Noun gender (ciliegie = fem.)      | 1           | 2026-03-05   | "i ciliege" → "le ciliegie" — ciliegia is feminine (la ciliegia → le ciliegie). |
-| più accent direction               | 5           | 2026-03-06   | "piú" (acute) → "più" (grave) — 4 times in one exercise! Italian uses grave accent on più. This is now the #1 accent issue. |
-| Passato prossimo auxiliary (essere) | 2          | 2026-03-06   | "ho andato" → "sono andato" (andare = motion verb → essere). "chiusa" without auxiliary → "ha chiuso". Need to remember: motion/state verbs use essere! |
-| ancora for noch                    | 1           | 2026-03-06   | "non voglio" for "ich will noch" → "voglio ancora" — noch = ancora (still). Meaning was reversed! |
-| uscire di casa (ausgehen)          | 1           | 2026-03-06   | "va fuori la casa" → "esce di casa" — ausgehen = uscire, aus dem Haus = di casa. |
+| più accent                         | 5           | 2026-03-03c  | "piu" → "più" — but CORRECT in 2026-03-08 (3x!). May be resolved. |
+| Adjective gender agreement         | 5           | 2026-03-08   | "caldo" → "calda" (zuppa is feminine) — 4th time same pattern! Previously: alto/alta, migliore gender, zuppo. |
+| Participle agreement with essere   | 2           | 2026-03-08   | "alzato" → "alzata" (lei = feminine). With essere, participle MUST agree with subject gender. |
+| Reflexive pronoun matching subject | 1           | 2026-03-03c  | "devi alzarsi" → "devi alzarti" — tu → ti (not si). |
+| Irregular past participles         | 1           | 2026-03-03c  | "possato" → "potuto" — potere has irregular participle. |
+| Irregular superlative (migliore)   | 4           | 2026-03-08   | "più buone" → "migliori" (2x in 2026-03-08!). Still using più buono instead of migliore/migliori. |
+| Noun gender (ciliegie = fem.)      | 2           | 2026-03-08   | "i ciliegie" → "le ciliegie" — AGAIN. ciliegia is feminine (la ciliegia → le ciliegie). |
+| più accent direction               | 5           | 2026-03-06   | "piú" (acute) → "più" (grave) — but all 3 instances CORRECT in 2026-03-08! Possibly resolved. |
+| Passato prossimo auxiliary (essere) | 2          | 2026-03-06   | "ho andato" → "sono andato" — but sono andato ✓, sono venuto ✓, siamo arrivati ✓ in 2026-03-08! Improving. |
+| ancora for noch                    | 3           | 2026-03-08   | "già" for noch → "ancora" (#20), "un altro" for noch → "ancora" (#7). noch = ancora (still/more), NOT già (already) or un altro (another). |
+| uscire di casa (ausgehen)          | 2           | 2026-03-08   | "va dalla casa" → "esce di casa" — AGAIN. ausgehen = uscire, aus dem Haus = di casa. |
+| andare a scuola (no article)       | 1           | 2026-03-08   | "alla scuola" → "a scuola" — no article with scuola after "a". |
+| Subject pronoun confusion (lei/lui)| 1           | 2026-03-08   | "Lui cucina" → "Lei cucina" — misread "Sie (lei)" as he instead of she. |
+| perché accent (acute, not grave)   | 1           | 2026-03-08   | "perchè" → "perché" — perché is the exception: acute accent (é), not grave (è). |
 
 ## Progress
 
@@ -77,70 +80,67 @@
 | 2026-03-05       | 11/20 | Previously drilled items sticking: cucinerò ✓, potuto ✓, migliore ✓, lavarti ✓, prima di ✓, l'uva ✓. è/e regressing again. Discourse connectors (inoltre, cioè) still unlearned. |
 | drill-2026-03-06 | 5/10  | Discourse connectors drill. inoltre ✓✓, cioè ✓✓, infatti ✓✓, invece ✓✓ — 4/5 connectors learned! comunque ✗✗ (confused with nonostante). è accent error again. Vocab errors (brutto, medicina, tardi). |
 | 2026-03-06       | 9/20  | ALL 5 discourse connectors correct! 12 previously-weak items correct. New issues: più accent direction (4x!), adjective agreement (3x), passato prossimo auxiliary (andare=essere), prima di + infinitive regressed. |
+| 2026-03-08       | 5/20  | Lowest score in weeks. prima di FIXED (2/2!), più accent FIXED (3/3!), essere for motion verbs mostly working (3/3), bianche ✓, in cui ✓, con cui ✓. BUT: adjective agreement failed 4x (gender+number), ancora/noch wrong 2x, migliori wrong 2x, senza+niente wrong, double negation missed. |
 
 ## Weak Areas
 
-### più accent direction (CRITICAL — 5 errors in one exercise!)
-- Writing "piú" (acute) instead of "più" (grave) — every single time
-- Italian grave accents: è, più, già, città, caffè, perché (exception: acute on perché)
-- **This is now the single biggest recurring error by frequency per exercise**
+### Adjective agreement — gender + number (CRITICAL — 10 errors combined, #1 issue)
+- Gender: "caldo" → "calda" (4th time!), zuppa is feminine
+- Number: "verde" → "verdi" (4th time!), "gentile" → "gentili"
+- **Pattern:** knows the rule exists but doesn't apply it. Every single time.
+- **Needs a drill** — force the habit with 10 focused sentences.
 
-### Adjective agreement — gender + number (7 errors combined, PERSISTENT)
-- Gender: "alto" → "alta" (3rd time!), "il migliore" → "la migliore", "zuppo/caldo/buono" → "zuppa/calda/buona"
-- Number: "verde" → "verdi" (3rd time!)
-- **Pattern:** knows the rule but consistently fails to apply it. Needs a checklist habit.
+### ancora for "noch" (3 errors, NEW persistent pattern)
+- "già" (already) and "un altro" (another) both used instead of "ancora" (still/more)
+- noch = ancora. Already = già. Another = un altro. Three different words!
+- "Ich will noch lesen" = "Voglio ancora leggere" (NOT già, NOT un altro)
 
-### senza + nessuno (3 errors, same mistake every time)
-- "senza vedere qualcuno" → "senza vedere nessuno"
-- After senza: ALWAYS niente/nessuno/nulla. Never qualcosa/qualcuno.
+### Irregular comparative migliore/migliori (4 errors, NOT LEARNING)
+- "più buone" → "migliori" (2x in this exercise!)
+- buono → migliore (singular) / migliori (plural). NEVER "più buono/a/e/i".
+- Same pattern as English: good → better, NOT "more good"
 
-### prima di + infinitive (4 errors, REGRESSING)
-- "prima mangia" → "prima di mangiare" — was correct in 2026-03-05 but wrong again
-- Must use: prima **di** + **infinitive** (not conjugated verb)
+### senza + negative indefinites (4 errors, same mistake)
+- "senza dire qualcosa" → "senza dire niente"
+- After senza: qualcosa → niente, qualcuno → nessuno. ALL flip negative.
 
-### Passato prossimo auxiliary choice (NEW — 2 errors)
-- "ho andato" → "sono andato" — andare is a motion verb → uses essere
-- Missing auxiliary entirely: "chiusa" → "ha chiuso"
-- Rule: verbs of motion/state change use essere (andare, venire, arrivare, partire, uscire)
+### che vs cui confusion (5 errors, bidirectional)
+- Now confused in BOTH directions: used "cui" where "che" was needed (#10), previously used "che" where "cui" was needed
+- Rule: che = no preposition (subject/direct object). cui = after preposition.
+- "Il caffè **che** è sul tavolo" (subject) vs "La città **in cui** abito" (preposition)
 
-### Spelling — general (47 total, but drilled words holding)
-- **Persistent rule gap:** c/ch before e/i. "biance" → "bianche", "sporce" → "sporche". The rule: to keep hard /k/ before e/i, add h.
-- "compare" → "comprare" (missing r)
-- "zuppo" → "zuppa"
-- **STILL FIXED:** sorella, zucchero, bistecche, casa, amica, città, fresche, mani, comprato, cucinerò, infatti
+### Double negation non...niente (2 errors)
+- "ha detto niente" → "non ha detto niente"
+- Italian ALWAYS requires non before the verb when niente/nessuno follow
+
+### Reflexive passato prossimo (3 errors)
+- Must use essere: "si è alzata" not "ha si alzato"
+- Participle agrees with subject: lei → alzata (feminine)
 
 ## Strengths
 
-- **ALL 5 DISCOURSE CONNECTORS — RESOLVED!** comunque ✓, inoltre ✓, cioè ✓, infatti ✓, invece ✓. All correct in 2026-03-06!
-- **12 previously-weak items correct** in one exercise: comunque, cioè, infatti, inoltre, al parco, in cui, gli occhi, burro, uova, ciliegie, è tardi, arrivato/partita.
-- **Passato prossimo participle agreement — SOLID.** arrivato (masc.) ✓, partita (fem.) ✓ in same sentence.
-- **con cui — CORRECT.** "La ragazza con cui studio" ✓.
-- **Future tense — CORRECT.** "Arriveremo" ✓, "alle otto" ✓.
-- **Modal verbs — SOLID.** voglio ✓, dobbiamo ✓.
-- **Passato prossimo avere — CONSISTENT.** "Ho chiuso" ✓ (irregular participle).
-- **al parco — FIXED.** Previously "in parco", now correct.
-- **-ire loro = -ono — MASTERED.**
+- **prima di + infinitive — RESOLVED!** 2/2 correct (mangiare ✓, andare ✓). Was 4 errors, now solid.
+- **più accent — RESOLVED!** 3/3 correct in this exercise. Previously 5 errors in one exercise.
+- **più accent direction — RESOLVED!** All grave accents correct.
+- **essere for motion verbs — STRONG.** Siamo arrivati ✓, sono andato ✓, sono venuto ✓ (3/3).
+- **bianche c/ch rule — CORRECT!** Previously wrong, now right.
+- **con cui / in cui — SOLID.** Both correct again.
+- **burro — CORRECT.** Previously wrong, now consistently right.
+- **Discourse connectors — STILL MASTERED.**
+- **Comparative structure (più + adj + di) — SOLID.**
 
 ## Study Recommendations
 
-1. **più has a GRAVE accent: più.** Not piú (acute). Same direction as è, già, città. You got it wrong 4 times in one exercise — this needs deliberate attention every time you write più.
+1. **Adjective agreement needs a DRILL.** This is now the #1 error by far (10 total). Before writing ANY adjective, ask: (1) Is the noun masculine or feminine? (2) Is it singular or plural? Then match the ending. la zuppa cald**a**, le mele verd**i**, le ragazze gentil**i**.
 
-2. **Adjective agreement checklist — do this EVERY sentence:**
-   - What gender is the noun? → adjective ending matches (-o/-a, -e stays -e)
-   - What number is the noun? → adjective ending matches (-i/-e for plural)
-   - la zuppa cald**a**, le scarpe bianch**e**, le mele verd**i**
+2. **noch = ancora.** Not già (already), not un altro (another). Write "ancora" 10 times. "Voglio **ancora** leggere." "Devo **ancora** comprare."
 
-3. **senza = negative context.** After senza, Italian flips to niente/nessuno/nulla. "senza vedere **nessuno**", "senza dire **niente**".
+3. **migliore, not più buono.** buono has an irregular comparative like English (good→better, not more good). Singular: migliore. Plural: migliori. "Le carote sono **migliori**."
 
-4. **prima di + INFINITIVE.** Never prima + conjugated verb. "prima di mangiare" not "prima mangia".
+4. **senza flips EVERYTHING negative.** senza + qualcosa → niente. senza + qualcuno → nessuno. Both must flip, not just one.
 
-5. **Passato prossimo — which auxiliary?**
-   - **essere:** andare, venire, arrivare, partire, uscire, entrare, tornare, nascere, morire + all reflexives
-   - **avere:** everything else (mangiare, chiudere, vedere, fare, etc.)
-   - "Sono andato a casa" not "ho andato"
+5. **che vs cui rule is simple:** Does it follow a preposition? → cui. No preposition? → che. "Il caffè **che** è..." (no preposition). "La città **in** cui..." (preposition).
 
-6. **noch = ancora** (still), not non (not). "Ich will noch lesen" = "Voglio ancora leggere."
+6. **Double negation is mandatory.** "Non ha detto **niente**." Both non AND niente are required. Never niente without non before the verb.
 
-7. **c/ch spelling rule:** to keep the hard /k/ before e or i, add h. bianco → bianch**e**, sporco → sporch**e**, fresco → fresch**e**.
-
-8. **Celebrate:** All discourse connectors mastered! 12 previously-weak items correct! Drilling works — the weak areas are getting narrower and more specific.
+7. **Celebrate:** prima di + infinitive is FIXED! più accent is FIXED! essere for motion verbs is working! Drilling works — keep targeting the weak spots.
