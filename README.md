@@ -25,7 +25,7 @@ You learn by doing translation exercises (German <-> Italian). Claude generates 
 
 1. **`/exercise`** — generates `exercises/2026-02-21.md`
 2. Open the file and fill in your translations on the `> ` lines
-3. **`/review`** — grades inline, updates `issues/rating.md`
+3. **`/review`** — grades inline, updates `issues/tracking.md`
 4. **`/drill`** — if you want focused practice on a specific weak point
 5. **`/redo`** — if you want to retry your mistakes with fresh sentences
 
@@ -34,8 +34,10 @@ You learn by doing translation exercises (German <-> Italian). Claude generates 
 ```
 grammar.md          — Grammar rules and verb conjugation tables
 vocabulary.md       — Vocabulary by category (verbs, food, colors, etc.)
-issues/rating.md    — Error tracker, weak areas, strengths, recommendations
-exercises/          — All exercise files (exercises, drills, redos)
+issues/tracking.md  — Error tracker, progress history, study recommendations
+issues/archive.md   — Resolved/mastered errors (reference only)
+exercises/          — Active exercise files (current session)
+exercises/archive/  — Completed exercises (reference only)
 CLAUDE.md           — Instructions for Claude Code (command definitions)
 ```
 
@@ -43,4 +45,4 @@ CLAUDE.md           — Instructions for Claude Code (command definitions)
 
 - Add vocabulary to `vocabulary.md` — Claude will use it in exercises
 - Add grammar rules to `grammar.md` — Claude will test them
-- Edit `issues/rating.md` to manually adjust priorities
+- Edit `issues/tracking.md` to manually adjust priorities
